@@ -1,0 +1,126 @@
+🧩 "MimClash" Oyun Tasarımı: Tekniksellik İçermeyen Sistem Özeti
+🎮 Genel Bakış
+Oyun Türü: Web tabanlı, çok oyunculu, tur bazlı sosyal parti oyunu
+
+Kilit Özellik: Oyuncular, komik memeler yaparak bir jüriyi etkilemeye çalışır.
+
+Amaç: En çok puanı toplayan oyuncu olmak.
+
+Süre: Ortalama bir oyun 10–15 dakika sürer.
+
+👥 Oyuncular & Roller
+3 – 12 kişi aynı oyuna katılabilir.
+
+Her oyuncu sıradan bir “meme üreticisi” rolündedir.
+
+Her turda bir oyuncu Jüri olur. Jüri olmak sırayla döner.
+
+Jüri o turda memeleri değerlendiren kişidir. Diğer oyuncular meme üretir.
+
+Jüri dışındakiler aynı anda meme yapar.
+
+🧠 Oyun Karakteristikleri
+Özellik	Açıklama
+Süreç	Tur bazlı oynanır (örnek: 5 tur)
+Hız	Her tur kısa sürer (3-5 dk), bekleme süresi az
+Karmaşıklık	Kurallar basit, mizah ve yaratıcılık ön planda
+Etkileşim	Oyuncular birbirinin yaptığı memeleri görür, tartışır
+Yaratıcılık	Oyunculara yazı ve görsel kombinasyonu ile içerik üretme alanı verilir
+Tekrar Oynanabilirlik	Durum kartları ve şablonlar her tur değiştiği için oyun sıkıcı olmaz
+
+🏠 Oda Yapısı
+🔹 Oyun Lobi (Bekleme Odası)
+Oyuncular oyun başlamadan önce buraya katılır.
+
+Her oyuncuya bir kullanıcı adı girme alanı ve hazır şablon seçeneği sunulur.
+
+Tüm oyuncular hazır olduğunda oyun başlatılır.
+
+🔸 Oyun Odası
+Oyun başladığında her oyuncu kendi meme oluşturma alanına gider.
+
+Aynı zamanda oyun durumu ekranı vardır:
+
+O anki Durum Kartı
+
+Süre sayacı
+
+Jüri kim?
+
+Oylama aşamasında herkes sonuç ekranına geçer.
+
+📜 Tur Akışı (Her Tur)
+Jüri Seçimi: Her tur yeni bir jüri belirlenir (dönüşümlü).
+
+Durum Kartı: Jüri bir kart çeker. Bu kart bir durumu anlatır. Örnek:
+
+"Annen interneti fişten çektiğinde"
+
+"Maaş gününü beklerken"
+
+Meme Hazırlama: Herkes (jüri hariç), seçtiği şablonla meme hazırlar.
+
+Hazır şablon + üst-alt yazı alanı (veya sticker).
+
+Süre sınırlıdır.
+
+Sunum: Tüm memeler anonim şekilde jüriye sunulur.
+
+Tartışma: Oyuncular isterse meme’lerini savunabilir. (İkna bölümü)
+
+Oylama: Jüri 1 memeyi seçer (3 puan). Diğer oyuncular da oy verebilir (bonus puanlar).
+
+Puanlama: Puanlar gösterilir. Sonraki tur başlar.
+
+🧩 Veri Yapıları (Teknik Terim Kullanmadan)
+Oyun Odası:
+
+Oda adı veya kodu vardır.
+
+Katılan oyuncular ve rolleri tutulur.
+
+Oyun kaç tur sürecek bilgisi vardır.
+
+Her turda hangi oyuncu jüri, hangi kart seçildi, kim ne meme yaptı bilgisi tutulur.
+
+Oyuncu Profili:
+
+Oyuncunun ismi
+
+Toplam puanı
+
+Mevcut şablonları
+
+Meme İçeriği:
+
+Hangi şablon kullanıldı?
+
+Üst ve alt yazılar ne?
+
+Hangi oyuncuya ait?
+
+Kaç oy aldı?
+
+Durum Kartları:
+
+Oyun başlamadan önce bir havuzdan seçilir.
+
+Her tur bir tane rastgele gelir.
+
+🌈 Oyun Sonu
+Tüm turlar bittiğinde toplam puanlar ekrana gelir.
+
+Kazanan ilan edilir.
+
+İsterlerse aynı oyuncular yeni oyuna hemen geçebilir.
+
+🧩 Oyunun Özünü Özetleyecek Cümleler:
+Oyun bir “yaratıcılık düellosu”.
+
+Herkes aynı konuya kendi tarzıyla yaklaşır.
+
+Oylama kısmı sosyal baskı, blöf ve eğlenceyi birleştirir.
+
+Jüri olmak hem eğlenceli hem zorlayıcıdır.
+
+Amaç sadece kazanmak değil, kahkaha attırmaktır.

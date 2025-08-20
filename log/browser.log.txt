@@ -1,0 +1,132 @@
+🎮 GameRoom RENDER - gameState: results currentRound: 2 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'daily_0', text: 'Sınav sonuçları açıklandığında', category: 'Günlük Durumlar', categoryKey: 'daily'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: results currentRound: 2 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'daily_0', text: 'Sınav sonuçları açıklandığında', category: 'Günlük Durumlar', categoryKey: 'daily'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: results currentRound: 2 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'daily_0', text: 'Sınav sonuçları açıklandığında', category: 'Günlük Durumlar', categoryKey: 'daily'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+useSocket.ts:152 Round started: {round: 3, maxRounds: 5, situationCard: {…}, gameState: 'playing', timeLeft: 3, …}
+GameRoom.tsx:129 🎯 Round başladı: {round: 3, maxRounds: 5, situationCard: {…}, gameState: 'playing', timeLeft: 3, …}
+GameRoom.tsx:130 🔧 DEBUG: round-started - gameState öncesi: meme-creation
+GameRoom.tsx:131 🔧 DEBUG: round-started - gelen data detay: {gameState: 'playing', situationCard: {…}, memeCreationTime: 3, roundStartTime: 1755616360040, currentRound: undefined, …}
+GameRoom.tsx:141 🔧 DEBUG: SET_GAME_STATE dispatch ediliyor - playing
+GameRoom.tsx:143 🔧 DEBUG: SET_GAME_STATE dispatch edildi - playing
+GameRoom.tsx:159 ⏰ Round başlangıcından 0 saniye geçti, kalan süre: 180 saniye
+GameRoom.tsx:162 ⏰ Meme oluşturma süresi: 3 dakika (180 saniye)
+GameRoom.tsx:270 🔄 Server sync event alındı: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memeCreationTime: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}currentRound: 3gameState: "meme-creation"hasSubmitted: falsehasVoted: falsemaxRounds: 5memesCount: 3situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}[[Prototype]]: Object
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: meme-creation currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:686 ❌ renderFallback çağrıldı! gameState: meme-creation
+GameRoom.tsx:687 ❌ renderFallback - state detay: {gameState: 'meme-creation', currentRound: 3, maxRounds: 5, situationCard: {…}, memesCount: 3, …}
+GameRoom.tsx:325 🔄 GameRoom: Periodic sync check...
+useSocket.ts:77 📋 Room info sync: {players: Array(3), gameState: 'playing', currentRound: 3, maxRounds: 5, chatHistory: Array(0), …}
+GameRoom.tsx:270 🔄 Server sync event alındı: {players: Array(3), gameState: 'playing', currentRound: 3, maxRounds: 5, chatHistory: Array(0), …}
+useSocket.ts:95 ⏰ Room info sync: Round başlangıcından 4 saniye geçti, kalan süre: 176 saniye
+GameRoom.tsx:262 ⏰ Timer ayarlanıyor: 176 saniye
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: playing currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: playing currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: playing currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: playing currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: playing currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: playing currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: playing currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: playing currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: playing currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}
+GameRoom.tsx:717 🎮 GameRoom RENDER - memes count: 3
+GameRoom.tsx:715 🎮 GameRoom RENDER - gameState: playing currentRound: 3 maxRounds: 5
+GameRoom.tsx:716 🎮 GameRoom RENDER - situationCard: {id: 'work_3', text: 'Patron seni çağırdığında', category: 'İş Durumları', categoryKey: 'work'}

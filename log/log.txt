@@ -1,0 +1,277 @@
+🚀 MimClash Server 8080 portunda çalışıyor!
+✅ Yeni oyuncu bağlandı: AtFDKfdHJyuXCBhkAAAC
+🔗 Toplam bağlantı sayısı: 1
+✅ Yeni oyuncu bağlandı: -XjVE3lCihNgUHQbAAAF
+🔗 Toplam bağlantı sayısı: 2
+✅ Yeni oyuncu bağlandı: pir0nSQ1_9TzY2KuAAAI
+🔗 Toplam bağlantı sayısı: 3
+🏠 Oda oluşturma isteği: test Socket ID: AtFDKfdHJyuXCBhkAAAC
+🔧 DEBUG: Creating room, calling selectStatusCards with: {
+  maxRounds: 5,
+  memeCreationTime: 3,
+  votingTime: 60,
+  minPlayers: 3,
+  maxPlayers: 8,
+  minPlayersEnabled: true,
+  maxPlayersEnabled: true,
+  enabledCategories: [
+    'work',
+    'traffic',
+    'relationship',
+    'technology',
+    'entertainment',
+    'daily'
+  ]
+}
+🎯 selectStatusCards çağrıldı, ayarlar: {
+  maxRounds: 5,
+  memeCreationTime: 3,
+  votingTime: 60,
+  minPlayers: 3,
+  maxPlayers: 8,
+  minPlayersEnabled: true,
+  maxPlayersEnabled: true,
+  enabledCategories: [
+    'work',
+    'traffic',
+    'relationship',
+    'technology',
+    'entertainment',
+    'daily'
+  ]
+}
+🔧 DEBUG: No categories selected, using enabledCategories
+📋 Filtrelenmiş kartlar: 48
+🔧 DEBUG: Available cards sample: [
+  'Pazartesi sabahı alarm çaldığında',
+  'Maaş gününü beklerken',
+  'Toplantı 5 dakika uzadığında'
+]
+🔀 Karıştırılmış kartlar: 48
+🔧 DEBUG: Shuffled cards sample: [
+  'Alışveriş listesini unuttuğunda',
+  'Uyku saatin bozulduğunda',
+  'Sınav sonuçları açıklandığında'
+]
+🔧 DEBUG: Room availableCards set to: 3 cards
+🔧 DEBUG: Sample cards: [ 'Alışveriş listesini unuttuğunda', 'Uyku saatin bozulduğunda' ]
+✅ Oda oluşturuldu: MN1I9P Toplam oda sayısı: 1
+❌ Socket disconnect: AtFDKfdHJyuXCBhkAAAC Sebep: client namespace disconnect
+❌ Socket disconnect: AtFDKfdHJyuXCBhkAAAC Sebep: client namespace disconnect
+✅ Yeni oyuncu bağlandı: ywdb2s_blH1ebVRqAAAK
+🔗 Toplam bağlantı sayısı: 3
+📋 Room bilgisi istendi: MN1I9P Player: { id: 'AtFDKfdHJyuXCBhkAAAC', name: 'test' }
+🔄 Socket ID güncellendi: test (AtFDKfdHJyuXCBhkAAAC → ywdb2s_blH1ebVRqAAAK) Score: 0
+🚪 Odaya katılma isteği: {
+  roomCode: 'MN1I9P',
+  playerName: 'test2',
+  socketId: 'pir0nSQ1_9TzY2KuAAAI'
+}
+✅ Real-time sync: Oyuncu katıldı ve tüm odaya bildirildi
+❌ Socket disconnect: pir0nSQ1_9TzY2KuAAAI Sebep: client namespace disconnect
+❌ Socket disconnect: pir0nSQ1_9TzY2KuAAAI Sebep: client namespace disconnect
+✅ Yeni oyuncu bağlandı: x-wBCopv-Vco8K6XAAAM
+🔗 Toplam bağlantı sayısı: 3
+📋 Room bilgisi istendi: MN1I9P Player: { id: 'pir0nSQ1_9TzY2KuAAAI', name: 'test2' }
+🔄 Socket ID güncellendi: test2 (pir0nSQ1_9TzY2KuAAAI → x-wBCopv-Vco8K6XAAAM) Score: 0
+🚪 Odaya katılma isteği: {
+  roomCode: 'MN1I9P',
+  playerName: 'test3',
+  socketId: '-XjVE3lCihNgUHQbAAAF'
+}
+✅ Real-time sync: Oyuncu katıldı ve tüm odaya bildirildi
+❌ Socket disconnect: -XjVE3lCihNgUHQbAAAF Sebep: client namespace disconnect
+❌ Socket disconnect: -XjVE3lCihNgUHQbAAAF Sebep: client namespace disconnect
+✅ Yeni oyuncu bağlandı: nIQE7Ia6XAojc1y_AAAO
+🔗 Toplam bağlantı sayısı: 3
+📋 Room bilgisi istendi: MN1I9P Player: { id: '-XjVE3lCihNgUHQbAAAF', name: 'test3' }
+🔄 Socket ID güncellendi: test3 (-XjVE3lCihNgUHQbAAAF → nIQE7Ia6XAojc1y_AAAO) Score: 0
+📥 Gelen ayarlar: {
+  maxRounds: 5,
+  memeCreationTime: 3,
+  votingTime: 60,
+  minPlayers: 3,
+  maxPlayers: 8,
+  minPlayersEnabled: true,
+  maxPlayersEnabled: true,
+  enabledCategories: [ 'work', 'relationship', 'technology', 'entertainment', 'daily' ]
+}
+🔧 DEBUG: Mevcut room.gameSettings: {
+  maxRounds: 5,
+  memeCreationTime: 3,
+  votingTime: 60,
+  minPlayers: 3,
+  maxPlayers: 8,
+  minPlayersEnabled: true,
+  maxPlayersEnabled: true,
+  enabledCategories: [
+    'work',
+    'traffic',
+    'relationship',
+    'technology',
+    'entertainment',
+    'daily'
+  ]
+}
+🔧 DEBUG: Gelen votingTime: 60
+🎮 Oyun ayarları güncellendi: {
+  maxRounds: 5,
+  memeCreationTime: 3,
+  votingTime: 60,
+  minPlayers: 3,
+  maxPlayers: 8,
+  minPlayersEnabled: true,
+  maxPlayersEnabled: true,
+  enabledCategories: [ 'work', 'relationship', 'technology', 'entertainment', 'daily' ]
+}
+📥 Gelen ayarlar: {
+  maxRounds: 5,
+  memeCreationTime: 3,
+  votingTime: 60,
+  minPlayers: 3,
+  maxPlayers: 8,
+  minPlayersEnabled: true,
+  maxPlayersEnabled: true,
+  enabledCategories: [ 'work', 'relationship', 'technology', 'daily' ]
+}
+🔧 DEBUG: Mevcut room.gameSettings: {
+  maxRounds: 5,
+  memeCreationTime: 3,
+  votingTime: 60,
+  minPlayers: 3,
+  maxPlayers: 8,
+  minPlayersEnabled: true,
+  maxPlayersEnabled: true,
+  enabledCategories: [ 'work', 'relationship', 'technology', 'entertainment', 'daily' ]
+}
+🔧 DEBUG: Gelen votingTime: 60
+🎮 Oyun ayarları güncellendi: {
+  maxRounds: 5,
+  memeCreationTime: 3,
+  votingTime: 60,
+  minPlayers: 3,
+  maxPlayers: 8,
+  minPlayersEnabled: true,
+  maxPlayersEnabled: true,
+  enabledCategories: [ 'work', 'relationship', 'technology', 'daily' ]
+}
+📥 Gelen ayarlar: {
+  maxRounds: 5,
+  memeCreationTime: 3,
+  votingTime: 60,
+  minPlayers: 3,
+  maxPlayers: 8,
+  minPlayersEnabled: true,
+  maxPlayersEnabled: true,
+  enabledCategories: [ 'work', 'relationship', 'technology', 'daily', 'traffic' ]
+}
+🔧 DEBUG: Mevcut room.gameSettings: {
+  maxRounds: 5,
+  memeCreationTime: 3,
+  votingTime: 60,
+  minPlayers: 3,
+  maxPlayers: 8,
+  minPlayersEnabled: true,
+  maxPlayersEnabled: true,
+  enabledCategories: [ 'work', 'relationship', 'technology', 'daily' ]
+}
+🔧 DEBUG: Gelen votingTime: 60
+🎮 Oyun ayarları güncellendi: {
+  maxRounds: 5,
+  memeCreationTime: 3,
+  votingTime: 60,
+  minPlayers: 3,
+  maxPlayers: 8,
+  minPlayersEnabled: true,
+  maxPlayersEnabled: true,
+  enabledCategories: [ 'work', 'relationship', 'technology', 'daily', 'traffic' ]
+}
+
+=== START NEW ROUND DEBUG ===
+🎮 Starting new round for room MN1I9P
+🔧 DEBUG: startNewRound fonksiyonu çağrıldı!
+🔧 DEBUG: room.availableCards length: 3
+🔧 DEBUG: room.availableCards sample: [
+  'Alışveriş listesini unuttuğunda',
+  'Uyku saatin bozulduğunda',
+  'Sınav sonuçları açıklandığında'
+]
+🎯 selectStatusCards çağrıldı, ayarlar: {
+  maxRounds: 5,
+  memeCreationTime: 3,
+  votingTime: 60,
+  minPlayers: 3,
+  maxPlayers: 8,
+  minPlayersEnabled: true,
+  maxPlayersEnabled: true,
+  enabledCategories: [ 'work', 'relationship', 'technology', 'daily', 'traffic' ]
+}
+🔧 DEBUG: No categories selected, using enabledCategories
+📋 Filtrelenmiş kartlar: 40
+🔧 DEBUG: Available cards sample: [
+  'Pazartesi sabahı alarm çaldığında',
+  'Maaş gününü beklerken',
+  'Toplantı 5 dakika uzadığında'
+]
+🔀 Karıştırılmış kartlar: 40
+🔧 DEBUG: Shuffled cards sample: [
+  'Araç muayenesi yaklaştığında',
+  'Randevuya geç kaldığında',
+  'Sosyal medyada eski sevgilin görünce'
+]
+🔧 DEBUG SERVER: statusCardsToSend before emit: [
+  'Araç muayenesi yaklaştığında',
+  'Randevuya geç kaldığında',
+  'Sosyal medyada eski sevgilin görünce'
+]
+🔧 DEBUG SERVER: statusCardsToSend length: 3
+🔧 DEBUG: statusCardsToSend content: [
+  'Araç muayenesi yaklaştığında',
+  'Randevuya geç kaldığında',
+  'Sosyal medyada eski sevgilin görünce'
+]
+🔧 DEBUG SERVER: Emitting round-started with data: {
+  round: 1,
+  maxRounds: 5,
+  situationCard: 'Araç muayenesi yaklaştığında',
+  statusCards: [
+    'Araç muayenesi yaklaştığında',
+    'Randevuya geç kaldığında',
+    'Sosyal medyada eski sevgilin görünce'
+  ],
+  gameState: 'playing',
+  timeLeft: 3,
+  memeCreationTime: 3,
+  roundStartTime: 1755603939660,
+  availableCards: 2,
+  usedCards: 1
+}
+🔧 DEBUG: About to emit round-started with statusCards: 3 cards
+🔧 DEBUG: Emitting to room: MN1I9P
+🔧 DEBUG: round-started event emitted successfully
+⏰ Meme oluşturma süresi: 3 dakika (180000ms)
+❌ Socket disconnect: x-wBCopv-Vco8K6XAAAM Sebep: client namespace disconnect
+❌ Socket disconnect: x-wBCopv-Vco8K6XAAAM Sebep: client namespace disconnect
+❌ Socket disconnect: nIQE7Ia6XAojc1y_AAAO Sebep: client namespace disconnect
+❌ Socket disconnect: nIQE7Ia6XAojc1y_AAAO Sebep: client namespace disconnect
+❌ Socket disconnect: ywdb2s_blH1ebVRqAAAK Sebep: client namespace disconnect
+❌ Socket disconnect: ywdb2s_blH1ebVRqAAAK Sebep: client namespace disconnect
+✅ Yeni oyuncu bağlandı: A10dSwCmia1pgiVTAAAU
+🔗 Toplam bağlantı sayısı: 3
+✅ Yeni oyuncu bağlandı: 0ijqtbrM7kRKf4zuAAAV
+🔗 Toplam bağlantı sayısı: 3
+✅ Yeni oyuncu bağlandı: tjMJbRsBAMbFa5MpAAAW
+🔗 Toplam bağlantı sayısı: 3
+📋 Room bilgisi istendi: MN1I9P Player: { id: 'AtFDKfdHJyuXCBhkAAAC', name: 'test' }
+🔄 Socket ID güncellendi: test (ywdb2s_blH1ebVRqAAAK → tjMJbRsBAMbFa5MpAAAW) Score: 0
+📋 Room bilgisi istendi: MN1I9P Player: { id: '-XjVE3lCihNgUHQbAAAF', name: 'test3' }
+🔄 Socket ID güncellendi: test3 (nIQE7Ia6XAojc1y_AAAO → A10dSwCmia1pgiVTAAAU) Score: 0
+📋 Room bilgisi istendi: MN1I9P Player: { id: 'pir0nSQ1_9TzY2KuAAAI', name: 'test2' }
+🔄 Socket ID güncellendi: test2 (x-wBCopv-Vco8K6XAAAM → 0ijqtbrM7kRKf4zuAAAV) Score: 0
+📋 Room bilgisi istendi: MN1I9P Player: { id: 'AtFDKfdHJyuXCBhkAAAC', name: 'test' }
+🔄 Socket ID güncellendi: test (tjMJbRsBAMbFa5MpAAAW → tjMJbRsBAMbFa5MpAAAW) Score: 0
+📋 Room bilgisi istendi: MN1I9P Player: { id: '-XjVE3lCihNgUHQbAAAF', name: 'test3' }
+🔄 Socket ID güncellendi: test3 (A10dSwCmia1pgiVTAAAU → A10dSwCmia1pgiVTAAAU) Score: 0
+📋 Room bilgisi istendi: MN1I9P Player: { id: 'pir0nSQ1_9TzY2KuAAAI', name: 'test2' }
+🔄 Socket ID güncellendi: test2 (0ijqtbrM7kRKf4zuAAAV → 0ijqtbrM7kRKf4zuAAAV) Score: 0
+PS C:\Users\mustafa.aydin\Desktop\mimclash\server> ^C

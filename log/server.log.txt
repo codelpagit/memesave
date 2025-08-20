@@ -1,0 +1,142 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Windows\system32> cd c:\Users\mustafa.aydin\Desktop\mimclash\server
+PS C:\Users\mustafa.aydin\Desktop\mimclash\server> node index.js
+🚀 MimClash Server 8080 portunda çalışıyor!
+✅ Yeni oyuncu bağlandı: Rvl0CfrmXKENCZ-BAAAB
+🔗 Toplam bağlantı sayısı: 1
+✅ Yeni oyuncu bağlandı: rSW9Zcns9IXxctMRAAAE
+🔗 Toplam bağlantı sayısı: 2
+✅ Yeni oyuncu bağlandı: qPEF33ngbM8q0vuwAAAH
+🔗 Toplam bağlantı sayısı: 3
+🏠 Oda oluşturma isteği: adwadd Socket ID: rSW9Zcns9IXxctMRAAAE
+✅ Oda oluşturuldu: H5SM0Q Toplam oda sayısı: 1
+❌ Socket disconnect: rSW9Zcns9IXxctMRAAAE Sebep: client namespace disconnect
+❌ Socket disconnect: rSW9Zcns9IXxctMRAAAE Sebep: client namespace disconnect
+✅ Yeni oyuncu bağlandı: itldT_2-YkQeajFLAAAJ
+🔗 Toplam bağlantı sayısı: 3
+📋 Room bilgisi istendi: H5SM0Q Player: { id: 'rSW9Zcns9IXxctMRAAAE', name: 'adwadd' }
+🔄 Socket ID güncellendi: adwadd (rSW9Zcns9IXxctMRAAAE → itldT_2-YkQeajFLAAAJ) Score: 0
+❌ Socket disconnect: Rvl0CfrmXKENCZ-BAAAB Sebep: transport close
+❌ Socket disconnect: Rvl0CfrmXKENCZ-BAAAB Sebep: transport close
+🚪 Odaya katılma isteği: {
+  roomCode: 'H5SM0Q',
+  playerName: '122H5SM0Q',
+  socketId: 'qPEF33ngbM8q0vuwAAAH'
+}
+✅ Real-time sync: Oyuncu katıldı ve tüm odaya bildirildi
+❌ Socket disconnect: qPEF33ngbM8q0vuwAAAH Sebep: client namespace disconnect
+❌ Socket disconnect: qPEF33ngbM8q0vuwAAAH Sebep: client namespace disconnect
+✅ Yeni oyuncu bağlandı: oM9WJyKuSJYT-HDwAAAM
+🔗 Toplam bağlantı sayısı: 2
+📋 Room bilgisi istendi: H5SM0Q Player: { id: 'qPEF33ngbM8q0vuwAAAH', name: '122H5SM0Q' }
+🔄 Socket ID güncellendi: 122H5SM0Q (qPEF33ngbM8q0vuwAAAH → oM9WJyKuSJYT-HDwAAAM) Score: 0
+✅ Yeni oyuncu bağlandı: u-3V7xX-bh97seiNAAAP
+🔗 Toplam bağlantı sayısı: 3
+🚪 Odaya katılma isteği: {
+  roomCode: 'H5SM0Q',
+  playerName: 'ad1d',
+  socketId: 'u-3V7xX-bh97seiNAAAP'
+}
+✅ Real-time sync: Oyuncu katıldı ve tüm odaya bildirildi
+❌ Socket disconnect: u-3V7xX-bh97seiNAAAP Sebep: client namespace disconnect
+❌ Socket disconnect: u-3V7xX-bh97seiNAAAP Sebep: client namespace disconnect
+✅ Yeni oyuncu bağlandı: pgxgfMSW_4k0uKUxAAAR
+🔗 Toplam bağlantı sayısı: 3
+📋 Room bilgisi istendi: H5SM0Q Player: { id: 'u-3V7xX-bh97seiNAAAP', name: 'ad1d' }
+🔄 Socket ID güncellendi: ad1d (u-3V7xX-bh97seiNAAAP → pgxgfMSW_4k0uKUxAAAR) Score: 0
+DEBUG STATUS CARDS: selectStatusCards - selectedCards: [
+  {
+    id: 'daily_1',
+    text: 'Hava durumu değiştiğinde',
+    category: 'Günlük Durumlar',
+    categoryKey: 'daily'
+  },
+  {
+    id: 'traffic_1',
+    text: 'Park yeri bulamadığında',
+    category: 'Trafik Durumları',
+    categoryKey: 'traffic'
+  },
+  {
+    id: 'work_0',
+    text: 'Pazartesi sabahı alarm çaldığında',
+    category: 'İş Durumları',
+    categoryKey: 'work'
+  }
+]
+DEBUG STATUS CARDS: selectStatusCards - selectedCards length: 3
+DEBUG STATUS CARDS: startNewRound - room.availableCards before selection: [
+  {
+    id: 'daily_1',
+    text: 'Hava durumu değiştiğinde',
+    category: 'Günlük Durumlar',
+    categoryKey: 'daily'
+  },
+  {
+    id: 'traffic_1',
+    text: 'Park yeri bulamadığında',
+    category: 'Trafik Durumları',
+    categoryKey: 'traffic'
+  },
+  {
+    id: 'work_0',
+    text: 'Pazartesi sabahı alarm çaldığında',
+    category: 'İş Durumları',
+    categoryKey: 'work'
+  }
+]
+DEBUG STATUS CARDS: startNewRound - room.availableCards type: object
+DEBUG STATUS CARDS: startNewRound - room.availableCards length: 3
+DEBUG STATUS CARDS: startNewRound - emitData.statusCards: undefined
+DEBUG STATUS CARDS: startNewRound - about to emit round-started with data: {
+  round: 1,
+  maxRounds: 5,
+  situationCard: {
+    id: 'daily_1',
+    text: 'Hava durumu değiştiğinde',
+    category: 'Günlük Durumlar',
+    categoryKey: 'daily'
+  },
+  gameState: 'playing',
+  timeLeft: 3,
+  memeCreationTime: 3,
+  roundStartTime: 1755614015420,
+  availableCards: 2,
+  usedCards: 1
+}
+DEBUG STATUS CARDS: startNewRound - round-started emitted successfully
+⏰ Meme oluşturma süresi: 3 dakika (180000ms)
+❌ Socket disconnect: oM9WJyKuSJYT-HDwAAAM Sebep: client namespace disconnect
+❌ Socket disconnect: oM9WJyKuSJYT-HDwAAAM Sebep: client namespace disconnect
+❌ Socket disconnect: pgxgfMSW_4k0uKUxAAAR Sebep: client namespace disconnect
+❌ Socket disconnect: pgxgfMSW_4k0uKUxAAAR Sebep: client namespace disconnect
+❌ Socket disconnect: itldT_2-YkQeajFLAAAJ Sebep: client namespace disconnect
+❌ Socket disconnect: itldT_2-YkQeajFLAAAJ Sebep: client namespace disconnect
+✅ Yeni oyuncu bağlandı: mECCaKr76pBZDMJdAAAV
+🔗 Toplam bağlantı sayısı: 1
+✅ Yeni oyuncu bağlandı: 4z7cUEDmabmZOm18AAAX
+🔗 Toplam bağlantı sayısı: 2
+✅ Yeni oyuncu bağlandı: Rcd7Mq59Dz-aKjBWAAAZ
+🔗 Toplam bağlantı sayısı: 3
+📋 Room bilgisi istendi: H5SM0Q Player: { id: 'rSW9Zcns9IXxctMRAAAE', name: 'adwadd' }
+🔄 Socket ID güncellendi: adwadd (itldT_2-YkQeajFLAAAJ → Rcd7Mq59Dz-aKjBWAAAZ) Score: 0
+📋 Room bilgisi istendi: H5SM0Q Player: { id: 'qPEF33ngbM8q0vuwAAAH', name: '122H5SM0Q' }
+🔄 Socket ID güncellendi: 122H5SM0Q (oM9WJyKuSJYT-HDwAAAM → mECCaKr76pBZDMJdAAAV) Score: 0
+📋 Room bilgisi istendi: H5SM0Q Player: { id: 'u-3V7xX-bh97seiNAAAP', name: 'ad1d' }
+🔄 Socket ID güncellendi: ad1d (pgxgfMSW_4k0uKUxAAAR → 4z7cUEDmabmZOm18AAAX) Score: 0
+📋 Room bilgisi istendi: H5SM0Q Player: { id: 'rSW9Zcns9IXxctMRAAAE', name: 'adwadd' }
+🔄 Socket ID güncellendi: adwadd (Rcd7Mq59Dz-aKjBWAAAZ → Rcd7Mq59Dz-aKjBWAAAZ) Score: 0
+📋 Room bilgisi istendi: H5SM0Q Player: { id: 'u-3V7xX-bh97seiNAAAP', name: 'ad1d' }
+🔄 Socket ID güncellendi: ad1d (4z7cUEDmabmZOm18AAAX → 4z7cUEDmabmZOm18AAAX) Score: 0
+📋 Room bilgisi istendi: H5SM0Q Player: { id: 'qPEF33ngbM8q0vuwAAAH', name: '122H5SM0Q' }
+🔄 Socket ID güncellendi: 122H5SM0Q (mECCaKr76pBZDMJdAAAV → mECCaKr76pBZDMJdAAAV) Score: 0
+📋 Room bilgisi istendi: H5SM0Q Player: { id: 'rSW9Zcns9IXxctMRAAAE', name: 'adwadd' }
+🔄 Socket ID güncellendi: adwadd (Rcd7Mq59Dz-aKjBWAAAZ → Rcd7Mq59Dz-aKjBWAAAZ) Score: 0
+📋 Room bilgisi istendi: H5SM0Q Player: { id: 'qPEF33ngbM8q0vuwAAAH', name: '122H5SM0Q' }
+🔄 Socket ID güncellendi: 122H5SM0Q (mECCaKr76pBZDMJdAAAV → mECCaKr76pBZDMJdAAAV) Score: 0
+📋 Room bilgisi istendi: H5SM0Q Player: { id: 'u-3V7xX-bh97seiNAAAP', name: 'ad1d' }
+🔄 Socket ID güncellendi: ad1d (4z7cUEDmabmZOm18AAAX → 4z7cUEDmabmZOm18AAAX) Score: 0
