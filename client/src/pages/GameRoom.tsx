@@ -726,10 +726,10 @@ const GameRoom: React.FC = () => {
 
       {/* Game Content */}
       {gameState === 'waiting' && renderWaiting()}
-      {(gameState === 'playing' || gameState === 'meme-creation') && renderMemeCreation()}
+      {gameState === 'playing' && renderMemeCreation()}
       {gameState === 'voting' && renderVoting()}
       {gameState === 'results' && renderResults()}
-      {!['waiting', 'playing', 'meme-creation', 'voting', 'results'].includes(gameState) && renderFallback()}
+      {!['waiting', 'playing', 'voting', 'results'].includes(gameState) && renderFallback()}
     </div>
   );
 

@@ -53,7 +53,7 @@ export interface GameState {
   roomCode: string;
   players: Player[];
   currentPlayer: Player | null;
-  gameState: 'waiting' | 'playing' | 'meme-creation' | 'voting' | 'results' | 'finished';
+  gameState: 'waiting' | 'playing' | 'voting' | 'results' | 'finished';
   currentRound: number;
   maxRounds: number;
   currentJudge: Player | null;

@@ -2,7 +2,10 @@ import { useEffect, useRef, useState } from 'react';
 import { io, Socket } from 'socket.io-client';
 import { eventBus } from '../utils/EventBus';
 
-const SOCKET_URL = 'http://localhost:8080';
+// Tek yerden socket base URL belirle
+const SOCKET_URL =
+  (process.env.REACT_APP_SOCKET_URL && process.env.REACT_APP_SOCKET_URL.trim()) ||
+  (typeof window !== 'undefined' ? window.location.origin : '');
 const RECONNECT_ATTEMPTS = 5;
 const RECONNECT_DELAY = 2000;
 
@@ -29,13 +32,15 @@ const useSocket = () => {
     
     // useEffect içindeki socket oluşturma kısmı
     const newSocket = io(SOCKET_URL, {
-      transports: ['websocket', 'polling'],
-      timeout: 20000,
+      // Önce polling dene, sonra websocket’e upgrade et
+      transports: ['polling', 'websocket'],
+      path: '/socket.io/',
+      withCredentials: true,
+      timeout: 30000,
       forceNew: true,
       reconnection: true,
       reconnectionAttempts: 5,
       reconnectionDelay: 2000,
-      // maxReconnectionAttempts: 5, // ❌ KALDIR
       query: {
         playerName: playerName || 'unknown'
       }

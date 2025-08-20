@@ -8,40 +8,26 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: process.env.NODE_ENV === 'production'
-      ? [
-          "https://mimclash.mustafayasiraydin.com",
-          "https://mimclash-peowijpcma-uc.a.run.app",
-          "https://mimclash-228662852932.us-central1.run.app"
-        ]
-      : "http://localhost:4000",
+    origin: "http://localhost:4000",  // ✅ Frontend'in yeni portu
     methods: ["GET", "POST"],
     credentials: true
   },
   allowEIO3: true,
-  maxHttpBufferSize: 10 * 1024 * 1024,
-  pingTimeout: 60000,
-  pingInterval: 25000,
-  transports: ['polling', 'websocket'],
-  path: '/socket.io/'
+  // ✅ DÜZELTME: Buffer boyutunu artır (transport error'ı çözmek için)
+  maxHttpBufferSize: 10 * 1024 * 1024, // 10MB (default 1MB'dan artır)
+  pingTimeout: 20000,
+  pingInterval: 10000,
+  // ✅ DÜZELTME: Reconnection ayarları
+  transports: ['websocket', 'polling']
 });
 
 // Middleware
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production'
-    ? [
-        "https://mimclash.mustafayasiraydin.com",
-        "https://mimclash-peowijpcma-uc.a.run.app",
-        "https://mimclash-228662852932.us-central1.run.app"
-      ]
-    : "http://localhost:4000",
+  origin: "http://localhost:4000",  // ✅ Frontend'in yeni portu
   credentials: true
 }));
 app.use(express.json());
 app.use(express.static('public'));
-
-// 204 dönen basit favicon handler (favicon yoksa 500 engellenir)
-app.get('/favicon.ico', (req, res) => res.status(204).end());
 
 // Oyun odaları ve oyuncular
 const gameRooms = new Map();
@@ -1403,37 +1389,3 @@ app.get('/templates', (req, res) => {
     res.json({ templates: imageFiles });
   });
 });
-
-// ✅ Production için React build dosyalarını serve et ve SPA fallback
-if (process.env.NODE_ENV === 'production') {
-  // Build dizinini iki olası konumdan tespit et (lokal geliştirme vs Docker)
-  const buildDirCandidates = [
-    path.resolve(__dirname, '../client/build'),
-    path.resolve(__dirname, 'client/build'),
-  ];
-  const clientBuildDir = buildDirCandidates.find(p => {
-    try { return require('fs').existsSync(p); } catch { return false; }
-  });
-
-  if (clientBuildDir) {
-    // Statik dosyalar
-    app.use(express.static(clientBuildDir));
-
-    // SPA fallback (path-to-regexp uyumlu, wildcard yok)
-    app.use((req, res, next) => {
-      if (
-        req.method !== 'GET' ||
-        req.path.startsWith('/templates') ||
-        req.path.startsWith('/sounds') ||
-        req.path.startsWith('/upload-template') ||
-        req.path.startsWith('/socket.io')
-      ) {
-        return next();
-      }
-      res.sendFile(path.join(clientBuildDir, 'index.html'));
-    });
-  } else {
-    console.error('React build klasörü bulunamadı. Kontrol edilen yollar:', buildDirCandidates);
-    app.get('/', (_req, res) => res.status(500).send('Client build bulunamadı'));
-  }
-}

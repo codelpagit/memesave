@@ -1,0 +1,6 @@
+# Yalnızca gereksizleri hariç tut, public dahil her şey gönderilsin
+.git/
+**/node_modules/
+**/.DS_Store
+**/Thumbs.db
+log/
